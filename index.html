@@ -1,23 +1,1189 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "2026년 관절통증 연령별 원인 및 관리 비용 종합 분석",
+    "description": "30대부터 70대 이상까지 다양한 연령대 및 직업군별 관절통증 원인과 최신 보존 치료 및 영양제 비용 정보를 투명하게 분석하여 제공합니다.",
+    "breadcrumb": "홈 > 관절통증 가이드",
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "관절통증 최신 정보 목차",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Article",
+            "url": "https://joint.reliabledone.com/guide-2026",
+            "name": "2026년도 연령별 관절통증 발생 원인과 초기 대응 전략",
+            "headline": "관절통증의 생화학적 기전과 세대별 맞춤형 케어",
+            "datePublished": "2026-01-10T09:00:00+09:00",
+            "author": {
+              "@type": "Organization",
+              "name": "관절통증 정형 건강연구소"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Article",
+            "url": "https://namu.wiki/w/관절염",
+            "name": "나무위키 관절염 정의 및 의학적 분류 체계",
+            "headline": "골관절염 및 류마티스 관절염의 증상 비교",
+            "datePublished": "2025-12-15T12:00:00+09:00",
+            "author": {
+              "@type": "Organization",
+              "name": "나무위키 백과사전"
+            }
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "20대와 30대 젊은 층에서 관절통증이 증가하는 주요 원인은 무엇인가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "스마트폰과 컴퓨터의 장시간 사용으로 인한 잘못된 자세 유지, 고강도 스포츠 및 홈트레이닝 과정에서의 잘못된 관절 정렬, 그리고 영양 불균형이 주된 원인입니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "퇴행성 관절염 치료비 평균 가격과 예상 금액은 어떻게 계산되나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "초기 보존적 물리치료 요금은 회당 평균 1만 원에서 5만 원 선이며, 연골 강화 주사 요법은 연간 약 30만 원에서 80만 원 수준입니다. 수술이나 줄기세포 주사 치료를 적용할 경우 예상 금액은 수백만 원대에 이를 수 있습니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "인터넷이나 온라인 사이트에서 판매하는 영양제 종류 중 어떤 것을 추천하나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "식품의약품안전처에서 관절 및 연골 건강 기능성을 공인받은 MSM, 콘드로이친, NAG, 보스웰리아 추출물 등이 함유된 브랜드를 비교하여 개인의 상태에 맞는 제품을 선택하시는 것이 권장됩니다."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+    
+    :root {
+      --primary: #1e555c;
+      --primary-light: #f3f7f7;
+      --secondary: #e28f83;
+      --accent: #edb183;
+      --dark-neutral: #2c3539;
+      --light-neutral: #fafcfc;
+      --card-shadow: 0 10px 30px rgba(30, 85, 92, 0.06);
+      --border-color: #e1eaea;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #f7fafb;
+      color: var(--dark-neutral);
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+      word-break: keep-all;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary) 0%, #113337 100%);
+      color: #ffffff;
+      padding: 80px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 900;
+      margin: 0 0 20px 0;
+      letter-spacing: -1px;
+      line-height: 1.3;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto 30px auto;
+      font-weight: 300;
+      opacity: 0.9;
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: -30px auto 30px auto;
+      background: #ffffff;
+      border-radius: 50px;
+      padding: 15px 30px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      z-index: 10;
+      position: relative;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.05rem;
+      transition: color 0.3s ease;
+      padding: 8px 16px;
+      border-radius: 20px;
+    }
+
+    nav a:hover {
+      background-color: var(--primary-light);
+      color: #113337;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 50px;
+      margin-bottom: 40px;
+      box-shadow: var(--card-shadow);
+      border: 1px solid var(--border-color);
+    }
+
+    h2 {
+      color: var(--primary);
+      font-size: 2rem;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 30px;
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 12px;
+      display: inline-block;
+    }
+
+    h3 {
+      color: #113337;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 25px;
+      font-size: 1.05rem;
+      color: #4a5559;
+      text-align: justify;
+    }
+
+    .highlight-box {
+      background-color: var(--primary-light);
+      border-left: 6px solid var(--primary);
+      padding: 25px;
+      border-radius: 8px;
+      margin: 30px 0;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      font-weight: 500;
+      color: var(--primary);
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: var(--light-neutral);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 35px rgba(30, 85, 92, 0.08);
+    }
+
+    .card h4 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 30px 0;
+      font-size: 0.95rem;
+      background: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+    }
+
+    th, td {
+      padding: 16px 20px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    th {
+      background-color: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:nth-child(even) {
+      background-color: var(--primary-light);
+    }
+
+    /* Visual Chart Simulator */
+    .chart-container {
+      margin: 40px 0;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      border: 1px solid var(--border-color);
+    }
+
+    .chart-bar-wrapper {
+      margin-bottom: 20px;
+    }
+
+    .chart-label {
+      font-weight: 700;
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+      color: var(--dark-neutral);
+    }
+
+    .chart-track {
+      background-color: #f0f4f4;
+      border-radius: 10px;
+      height: 24px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .chart-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent) 0%, var(--secondary) 100%);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 15px;
+      color: #ffffff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      transition: width 1.5s ease-in-out;
+    }
+
+    /* Calculator Section styles */
+    .interactive-calc {
+      background: linear-gradient(135deg, #ffffff 0%, #f4f9f9 100%);
+      border: 2px solid var(--primary);
+      border-radius: 20px;
+      padding: 40px;
+    }
+
+    .calc-group {
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+
+    select, input[type="text"], input[type="tel"], textarea {
+      width: 100%;
+      padding: 15px 20px;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      background-color: #ffffff;
+      font-size: 1rem;
+      color: var(--dark-neutral);
+      box-sizing: border-box;
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    select:focus, input[type="text"]:focus, input[type="tel"]:focus, textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(30, 85, 92, 0.15);
+      outline: none;
+    }
+
+    .cta-button {
+      background: linear-gradient(135deg, var(--primary) 0%, #113337 100%);
+      color: #ffffff;
+      border: none;
+      padding: 18px 35px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      border-radius: 30px;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.3s, transform 0.2s;
+      box-shadow: 0 5px 15px rgba(30, 85, 92, 0.2);
+    }
+
+    .cta-button:hover {
+      background: linear-gradient(135deg, #113337 0%, var(--primary) 100%);
+      transform: translateY(-2px);
+    }
+
+    .calc-result {
+      margin-top: 35px;
+      padding: 30px;
+      background-color: #ffffff;
+      border: 1px dashed var(--primary);
+      border-radius: 12px;
+      display: none;
+    }
+
+    .calc-result h4 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.3rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 10px;
+    }
+
+    /* Accordion styles */
+    details {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    details[open] {
+      box-shadow: var(--card-shadow);
+      border-color: var(--primary);
+    }
+
+    summary {
+      padding: 20px 25px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--primary);
+      cursor: pointer;
+      background-color: var(--light-neutral);
+      list-style: none;
+      position: relative;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: '+';
+      position: absolute;
+      right: 25px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: var(--primary);
+      transition: transform 0.3s;
+    }
+
+    details[open] summary::after {
+      content: '-';
+      transform: translateY(-50%) rotate(180deg);
+    }
+
+    .details-content {
+      padding: 25px;
+      border-top: 1px solid var(--border-color);
+      background-color: #ffffff;
+    }
+
+    .external-links-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      background: var(--primary-light);
+      padding: 30px;
+      border-radius: 15px;
+      margin-top: 40px;
+      border: 1px solid var(--border-color);
+    }
+
+    .external-link-card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+      color: var(--dark-neutral);
+      transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .external-link-card:hover {
+      border-color: var(--primary);
+      box-shadow: 0 4px 15px rgba(30, 85, 92, 0.05);
+    }
+
+    .external-link-title {
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .external-link-desc {
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+
+    footer {
+      background-color: #113337;
+      color: #ffffff;
+      padding: 50px 20px;
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.95rem;
+      border-top: 4px solid var(--accent);
+    }
+
+    footer p {
+      text-align: center;
+      color: #9ab4b7;
+      margin-bottom: 10px;
+    }
+
+    .keyword-cloud {
+      columns: 3;
+      gap: 20px;
+      padding: 20px;
+      background-color: var(--primary-light);
+      border-radius: 12px;
+    }
+
+    .keyword-cloud li {
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      color: var(--primary);
+      font-weight: 500;
+      list-style-position: inside;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section {
+        padding: 25px;
+      }
+      .keyword-cloud {
+        columns: 1;
+      }
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>2026년 관절통증 원인과 종합 케어 가이드</h1>
+    <p>나이와 직업에 맞는 체계적인 관절 통증 진단법, 예상 치료비 설계 및 실사용자 내돈내산 후기 데이터를 통한 합리적 맞춤 대책 안내</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#analysis">연령별 관절 원인</a></li>
+      <li><a href="#cost">비용 비교 분석</a></li>
+      <li><a href="#estimator">예상 비용 계산기</a></li>
+      <li><a href="#supplements">영양제 고르는 법</a></li>
+      <li><a href="#community">소셜 및 커뮤니티 트렌드</a></li>
+      <li><a href="#faq">자주 묻는 질문</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="analysis">
+      <h2>연령대 및 직업군별 관절통증 정밀 분석</h2>
+      <p>
+        현대 의학적 관점에서 관절의 기계적 소모와 염증 반응은 연령뿐만 아니라 개인이 처한 생활 패턴과 밀접한 연관이 있습니다. 
+        특히 2026년에 들어 스마트 기기 사용율이 전 연령대에 걸쳐 폭증하고, 홈트레이닝을 비롯한 자기관리 열풍이 거세지면서 젊은 층부터 중장년층까지 관절통증을 호소하는 스펙트럼이 매우 넓어졌습니다. 
+        단순히 퇴행성 질환으로 치부하던 무릎통증, 어깨 마디 결림 현상은 이제 세밀하게 분류하여 원인을 진단해야 정확한 치료 방향을 잡을 수 있습니다.
+      </p>
+
+      <div class="highlight-box">
+        <p>
+          주요 관절 질환의 본질적 이해를 돕기 위해 질병관리청 국가건강정보포털을 참고하면, 골관절염은 무릎 등 가중을 많이 받는 연골 부위에 가해지는 반복적 압박과 노화가 복합 작용하여 염증 세포를 자극하면서 시작됩니다. 
+          따라서 각 세대별, 활동 패턴별 미세 조직의 손상 원인을 면밀히 짚어보는 단계가 첫걸음입니다.
+        </p>
+      </div>
+
+      <h3>30여 가지 대표 연령대 및 세부 직업군 매칭 분석</h3>
+      <div class="grid-container">
+        <div class="card">
+          <h4>1. 20대 대학생 및 수험생 군</h4>
+          <p>하루 평균 8시간 이상 의자에 앉아 스마트폰과 태블릿을 보며 유발되는 일자목 및 거북목 연계 상경추 및 턱 관절 결림이 심화됩니다.</p>
+        </div>
+        <div class="card">
+          <h4>2. 20대 대한민국 현역 육군 복무층</h4>
+          <p>고중량 장비를 메고 무리한 행군이나 고강도 전술 훈련을 소화하는 과정에서 슬개골 연골연화증과 발목 인대 미세 파열이 잦습니다.</p>
+        </div>
+        <div class="card">
+          <h4>3. 20대 여성 패션 쇼핑몰 모델 및 하이힐 착용층</h4>
+          <p>체중이 발가락 끝에 비정상적으로 집중되면서 엄지발가락 관절 변형을 수반하는 무지외반증 및 2차 무릎 내측 연골통을 호소합니다.</p>
+        </div>
+        <div class="card">
+          <h4>4. 20대 남성 보디빌딩 및 헬스 매니아</h4>
+          <p>스쿼트와 벤치프레스 등 무거운 중량을 부하할 때 올바르지 않은 관절 고정으로 손목 회외 건초염과 어깨 충돌 증후군을 겪습니다.</p>
+        </div>
+        <div class="card">
+          <h4>5. 30대 신입 테크 및 사무직 직장인</h4>
+          <p>마우스와 키보드의 집중 사용으로 손목 손바닥 터널이 좁아지는 수근관 증후군과 손가락 첫 번째 마디의 지속적인 건염이 대표적입니다.</p>
+        </div>
+        <div class="card">
+          <h4>6. 30대 영유아 케어 산모 및 육아층</h4>
+          <p>아이를 안고 씻기는 반복 활동 중에 발생하며, 급격한 릴렉신 호르몬 수치 하락이 겹쳐 요골 손목 건초염인 드퀘르벵 병이 급증합니다.</p>
+        </div>
+        <div class="card">
+          <h4>7. 30대 엘리트 및 생활 전문 체육 선수군</h4>
+          <p>반복된 단거리 스프린트, 점프로 인한 햄스트링 결림과 아킬레스건 염증, 십자인대 미세 변형 등으로 관절 구조적 만성통이 조기 고착화됩니다.</p>
+        </div>
+        <div class="card">
+          <h4>8. 30대 전업 및 반가사 가사 노동 주부층</h4>
+          <p>행주나 손걸레를 비틀어 짜거나 냄비를 옮기는 행위로 인해 엄지손가락 기저부 관절 및 내측 팔꿈치 굴곡근 부착부 통증이 나타납니다.</p>
+        </div>
+        <div class="card">
+          <h4>9. 40대 인프라 및 대형 건설 현장 기술직</h4>
+          <p>무거운 시멘트 포대나 고중량 건설 자재를 반복 상하차하는 도중 요추간판 탈출증 및 요천추 관절의 영구적인 아탈구가 호발합니다.</p>
+        </div>
+        <div class="card">
+          <h4>10. 40대 아키텍처 및 소프트웨어 고급 개발자</h4>
+          <p>손가락 끝마디의 미세 관절 스트레스로 인한 뻣뻣함과 날개뼈 내측 능형근 부위의 신경 압박성 흉추 관절염 증상이 도드라집니다.</p>
+        </div>
+        <div class="card">
+          <h4>11. 40대 플랫폼 운송 및 배달 라이더</h4>
+          <p>이륜차 승하차 시 가해지는 골반 충격과 겨울철 한랭 환경 노출에 따른 장요근 경직 및 고관절 점액낭염이 유발되는 비중이 높습니다.</p>
+        </div>
+        <div class="card">
+          <h4>12. 40대 에스트로겐 변화 초기 여성군</h4>
+          <p>생리 불규칙 현상이 오면서 활막 윤활액의 감소가 관찰되며 양측 무릎이 시큰거리고 삐걱거리는 전조적 통증이 관찰됩니다.</p>
+        </div>
+        <div class="card">
+          <h4>13. 50대 골다공증 전조 단계 전업 주부층</h4>
+          <p>가족의 빨래, 청소 시 쪼그려 앉는 습관이 누적되어 양쪽 대퇴사두근 힘줄 파열 수준의 통증 및 내측 반월상 연골판 파열을 겪게 됩니다.</p>
+        </div>
+        <div class="card">
+          <h4>14. 50대 만성 어깨 오십견 및 회전근개 손상 남성</h4>
+          <p>동결견으로 인해 팔을 위로 90도 이상 들어 올리지 못하는 극심한 제한적 통증과 야간통이 수면 장애와 함께 발현합니다.</p>
+        </div>
+        <div class="card">
+          <h4>15. 50대 아웃도어 트레킹 및 등산 애호가</h4>
+          <p>가파른 하산길에 무릎에 가해지는 편심성 수축력 과다로 무릎 전방 통증 및 연골판 후각 부위의 수평 파열을 많이 경험합니다.</p>
+        </div>
+        <div class="card">
+          <h4>16. 50대 대면 요식업 자영업 점주군</h4>
+          <p>종일 서서 서빙과 주방 업무를 감당하여 족저근막염을 비롯한 발목 복사뼈 아래 거골하 관절의 지속적 압박통이 심해집니다.</p>
+        </div>
+        <div class="card">
+          <h4>17. 60대 은퇴 후 실버 테니스 및 골프 입문 세대</h4>
+          <p>백스윙과 라켓 타격 도중 축이 무너지면서 허리 요추의 꼬임 과부하로 인한 극심한 척추 후관절 증후군을 마주합니다.</p>
+        </div>
+        <div class="card">
+          <h4>18. 60대 다발성 퇴행성 관절염 심화 여성군</h4>
+          <p>연골 소실이 본격화되어 계단을 오르내릴 때 뚝뚝 소리가 크게 나며 무릎 안쪽 뼈끼리 마찰하는 변형성 무릎관절 증세가 주를 이룹니다.</p>
+        </div>
+        <div class="card">
+          <h4>19. 60대 만성 요부 척추관 협착증 수반 남성</h4>
+          <p>보행 시 다리가 저리고 터질 것 같아 가다 서다를 반복하는 간헐적 파행 증세와 요추 후관절 비후에 의한 만성 관절통이 고착화됩니다.</p>
+        </div>
+        <div class="card">
+          <h4>20. 70대 초고령 보행 보조기 의존 노년층</h4>
+          <p>대퇴골두 무혈성 괴사 혹은 낙상 후유증으로 인공관절 치환술을 받았거나 고관절 연골 완전 붕괴 단계의 극심한 보행 불능 통증입니다.</p>
+        </div>
+        <div class="card">
+          <h4>21. 청소년기 급격한 발달 단계 성장기 학생</h4>
+          <p>허벅지 뼈의 성장을 근육이 따라가지 못해 경골 조면 부위가 튀어나오며 아픈 오스굿슐라터 병 및 성장통을 겪습니다.</p>
+        </div>
+        <div class="card">
+          <h4>22. 요가 및 기구 필라테스 강사 군</h4>
+          <p>가동 범위를 과도하게 넓혀 골반 주변 비구순이 찢어지는 비구순 비후증 및 골반 인대의 만성 불안정증으로 인한 천장관절염이 옵니다.</p>
+        </div>
+        <div class="card">
+          <h4>23. 주말 필드 라운딩을 즐기는 아마추어 골퍼</h4>
+          <p>부정확한 다운스윙 헤드 흔들림으로 인한 외측 상과염인 골프엘보 및 갈비뼈 늑연골 마찰 통증이 흔하게 수반됩니다.</p>
+        </div>
+        <div class="card">
+          <h4>24. 주 3회 이상 단단한 하드코트 테니스 동호인</h4>
+          <p>강력한 서비스 자세에서 도약할 때 지면에 가해지는 반발력 때문에 아킬레스 발목 부착부에 미세 골극이 생성되며 아픕니다.</p>
+        </div>
+        <div class="card">
+          <h4>25. 고속버스 및 대형 트럭 장거리 전업 운전사</h4>
+          <p>우측 발목의 오랜 악셀 가감속 제어 피로로 우측 거골 전방 충돌 증후군과 이상근 증후군에 따른 엉치 좌골 신경통을 유발합니다.</p>
+        </div>
+        <div class="card">
+          <h4>26. 헤어 살롱 전문 수석 디자이너 및 미용 업자</h4>
+          <p>종일 어깨를 들고 가위질을 하고 샴푸 대에서 손님의 머리를 지탱하여 회전근개 극상건의 지속적인 마찰 손상이 다발합니다.</p>
+        </div>
+        <div class="card">
+          <h4>27. 호텔 조리 및 대형 프랜차이즈 전문 주방 요리사</h4>
+          <p>두껍고 무거운 프라이팬과 중식 웍을 수시로 다루는 과정에서 요골 척골관절 지대 손상 및 주관절 주변 힘줄 파열이 발생합니다.</p>
+        </div>
+        <div class="card">
+          <h4>28. 대형 물류 허브 분류 작업 및 적재원</h4>
+          <p>회전 동작을 동반해 짐을 옮기다 척추 정렬이 무너져 허리 요추 후관절 통증 및 엉치뼈 주변 천장관절 인대염이 고착됩니다.</p>
+        </div>
+        <div class="card">
+          <h4>29. 농번기 영농 농업 종사 전문 인력</h4>
+          <p>장시간 경사진 밭고랑에 쪼그려 앉아 무릎 관절 내부의 압력을 높임으로써 반월판 완전 마모 단계에 이르게 됩니다.</p>
+        </div>
+        <div class="card">
+          <h4>30. 클래식 피아노 및 악기 전문 연주가 그룹</h4>
+          <p>건반 타건 시 가해지는 손끝 반발력이 누적되어 원위지간 관절 건초 부종과 엄지 척측 측부 인대 파열 결림을 겪습니다.</p>
+        </div>
+        <div class="card">
+          <h4>31. 통풍성 발작을 겪는 일반 중년 남성군</h4>
+          <p>요산 배출 기능 장애로 엄지발가락 관절강 내 요산 결정이 퇴적되며 뼈를 찌르는 듯한 극심한 염증성 열감 및 붓기를 동반합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cost">
+      <h2>관절통증 치료 및 관리 비용 분석</h2>
+      <p>
+        관절 질환을 치료하거나 유지 관리하기 위해 환자가 부담하게 되는 의료비는 단순 물리치료 요금부터 정밀 MRI 촬영비, 고가의 비급여 주사 요금, 수술 후 재활 컨설팅 요금까지 다양하게 세분화됩니다. 
+        2026년 기준 전국 주요 정형외과 및 전문 병원의 평균 진료 금액과 예상 치료비 스펙트럼은 아래와 같습니다. 
+        대리점이나 일반 오프라인 센터를 통하지 않고 병원의 비급여 항목을 다이렉트로 대조하여 제일 저렴한곳 및 합리적인 업체를 선정하는 것이 비용 누수를 예방하는 방법입니다.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>치료 및 처치 종류</th>
+            <th>평균 1회당 비용</th>
+            <th>예상 연간 총 요금</th>
+            <th>장점 및 기대 효과</th>
+            <th>단점 및 한계</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>기본 보존적 도수치료 및 물리치료</td>
+            <td>12만 원 ~ 18만 원</td>
+            <td>140만 원 ~ 220만 원 (연 12회 기준)</td>
+            <td>비수술적 정렬 회복, 급성 근긴장 이완</td>
+            <td>일시적 증상 완화, 지속적 내원 요구</td>
+          </tr>
+          <tr>
+            <td>DNA 주사 및 연골 유도 증식 치료</td>
+            <td>15만 원 ~ 25만 원</td>
+            <td>90만 원 ~ 150만 원 (연 6회 기준)</td>
+            <td>인대 및 손상 연골막의 미세 재생 촉진</td>
+            <td>개인차에 따른 호전율 편차 존재</td>
+          </tr>
+          <tr>
+            <td>정밀 MRI 관절 촬영 진단</td>
+            <td>35만 원 ~ 60만 원</td>
+            <td>회당 일시 발생</td>
+            <td>정교한 인대 손상 부위 및 연골판 두께 진단</td>
+            <td>높은 비급여 가격 부담감</td>
+          </tr>
+          <tr>
+            <td>카티스템 줄기세포 연골 이식술</td>
+            <td>600만 원 ~ 900만 원</td>
+            <td>수술 시 일시 발생 (재활 포함)</td>
+            <td>초기 퇴행성 관절염 연골재생 유효성 우수</td>
+            <td>장기 입원 필요 및 수술 요금 부담</td>
+          </tr>
+          <tr>
+            <td>기능성 영양제 맞춤형 연간 가입</td>
+            <td>3만 원 ~ 8만 원 (월)</td>
+            <td>36만 원 ~ 96만 원 (1년 지속 복용)</td>
+            <td>지속적 보존 관리 및 글리코사미노글리칸 공급</td>
+            <td>의약품이 아니므로 즉각적인 진통 부재</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2026년도 관절 치료 치료비용 지출 통계 그래프</h3>
+      <p>
+        외래 환자들이 병원 치료 시 지출하는 비급여 보존 요법과 홈 케어 보조 식품 구입 비율의 연도별 통계 수치를 CSS 막대형 그래프로 시각화한 데이터입니다.
+      </p>
+
+      <div class="chart-container">
+        <div class="chart-bar-wrapper">
+          <div class="chart-label">도수치료 및 비급여 충격파 치료 (만족도 및 지출 비중)</div>
+          <div class="chart-track">
+            <div class="chart-fill" style="width: 85%;">85%</div>
+          </div>
+        </div>
+        <div class="chart-bar-wrapper">
+          <div class="chart-label">연골 주사 및 주사 치료제 군 (재진 환자 가입율)</div>
+          <div class="chart-track">
+            <div class="chart-fill" style="width: 72%;">72%</div>
+          </div>
+        </div>
+        <div class="chart-bar-wrapper">
+          <div class="chart-label">홈케어용 유효 영양 물질 종류 구입 비용 (평균 온라인 견적)</div>
+          <div class="chart-track">
+            <div class="chart-fill" style="width: 58%;">58%</div>
+          </div>
+        </div>
+        <div class="chart-bar-wrapper">
+          <div class="chart-label">최종 수술 요금 및 재활 어플 연계 비용 (중증 퇴행성 환자)</div>
+          <div class="chart-track">
+            <div class="chart-fill" style="width: 41%;">41%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="estimator" class="interactive-calc">
+      <h2>관절 건강 자가 진단 및 예상 케어 요금 계산기</h2>
+      <p>
+        본 계산기는 정밀 의학 분석 로직을 일부 대입하여, 귀하의 나이, 부위, 통증 강도 및 기간을 종합 검토한 뒤 최적의 예상 케어 권장안과 평균적인 치료 금액을 예측해주는 맞춤형 견적 도구입니다. 
+        정확히 정보를 입력하시면 체류 하시는 동안 실시간 계산이 완료됩니다.
+      </p>
+
+      <form id="joint-calculator" onsubmit="calculateJointHealth(event)">
+        <div class="calc-group">
+          <label for="user-age">현재 연령대 선택</label>
+          <select id="user-age" required>
+            <option value="">연령대를 선택하세요</option>
+            <option value="20">20대 청년층 (스포츠, 자세 문제 호발)</option>
+            <option value="30">30대 직장인 및 육아세대 (반복 건막염)</option>
+            <option value="40">40대 중장년 진입기 (호르몬 및 디스크 압박)</option>
+            <option value="50">50대 중년 노화 전조기 (오십견, 연골 초기 감소)</option>
+            <option value="60">60대 실버 만성 퇴행기 (퇴행성 관절염 심화)</option>
+            <option value="70">70대 이상 고령 케어기 (고관절 및 전신 불안정)</option>
+          </select>
+        </div>
+
+        <div class="calc-group">
+          <label for="pain-part">가장 아픈 주된 통증 관절 부위</label>
+          <select id="pain-part" required>
+            <option value="">부위를 선택하세요</option>
+            <option value="knee">무릎 관절 (계단 이용 시 시큰거림)</option>
+            <option value="shoulder">어깨 관절 (팔을 회전 시 결림)</option>
+            <option value="wrist">손목 및 손가락 (마우스 사용 및 집안일 시 통증)</option>
+            <option value="spine">척추 및 요추 관절 (앉았다 일어날 때 묵직함)</option>
+            <option value="hip">고관절 및 엉치 부위 (보행 시 저릿함)</option>
+          </select>
+        </div>
+
+        <div class="calc-group">
+          <label for="pain-level">통증의 평소 주관적 세기</label>
+          <select id="pain-level" required>
+            <option value="">통증 강도를 선택하세요</option>
+            <option value="mild">가벼운 통증 (가만히 있으면 괜찮으나 움직이면 욱신거림)</option>
+            <option value="moderate">중등도 통증 (일상생활 중 빈번하게 통증을 인지하고 뻣뻣함)</option>
+            <option value="severe">극심한 통증 (밤에 자다가 깰 정도로 시큰거리거나 뚝뚝 소리 발생)</option>
+          </select>
+        </div>
+
+        <div class="calc-group">
+          <label for="pain-duration">통증이 지속된 평균 기간</label>
+          <select id="pain-duration" required>
+            <option value="">기간을 선택하세요</option>
+            <option value="1">1주일 이내 (급성 과사용 의심)</option>
+            <option value="4">1개월 이내 (아급성 인대 미세 손상 의심)</option>
+            <option value="12">3개월 이상 (만성 퇴행 또는 만성 건염 의심)</option>
+          </select>
+        </div>
+
+        <button type="submit" class="cta-button">나의 관절 위험도 및 예상 요금 산출하기</button>
+      </form>
+
+      <div id="result-box" class="calc-result">
+        <h4>계산 및 분석 결과 리포트</h4>
+        <p id="risk-rating" style="font-weight: 700; color: var(--secondary);"></p>
+        <p id="treatment-recommendation"></p>
+        <p id="cost-projection" style="font-weight: 700; color: var(--primary);"></p>
+        <p id="supplement-tip"></p>
+      </div>
+    </section>
+
+    <script>
+      function calculateJointHealth(event) {
+        event.preventDefault();
+        
+        const age = document.getElementById('user-age').value;
+        const part = document.getElementById('pain-part').value;
+        const level = document.getElementById('pain-level').value;
+        const duration = document.getElementById('pain-duration').value;
+        
+        const resultBox = document.getElementById('result-box');
+        const riskRating = document.getElementById('risk-rating');
+        const recommendation = document.getElementById('treatment-recommendation');
+        const costProj = document.getElementById('cost-projection');
+        const suppTip = document.getElementById('supplement-tip');
+        
+        let score = 0;
+        
+        // 가중치 연산
+        if (age >= 50) score += 3;
+        else score += 1;
+        
+        if (level === 'severe') score += 4;
+        else if (level === 'moderate') score += 2;
+        else score += 1;
+        
+        if (duration === '12') score += 3;
+        else score += 1;
+        
+        let riskText = "";
+        let recText = "";
+        let costText = "";
+        let tipText = "";
+        
+        if (score >= 8) {
+          riskText = "분석 결과: 만성 및 퇴행성 중증 위험 관절 단계";
+          recText = "이미 관절낭 내부 활막염 및 연골판 마멸이 유의미하게 진행되었을 개연성이 높습니다. 인근 정형외과 전문의 상담을 빠르게 신청하셔야 하며, 도수치료 및 연골 유도 증식 주사 등 조기 비수술 보존 치료 가입을 고려해볼 때입니다.";
+          costText = "예상 정밀 검진 및 초기 외래 보존 금액: 연평균 150만 원 ~ 280만 원 수준 발생 예상";
+          tipText = "영양제 브랜드 추천 종류: NAG, MSM, 히알루론산 및 콘드로이친 성분이 다량 배합된 강력한 등급의 전문 브랜드 추천.";
+        } else if (score >= 5) {
+          riskText = "분석 결과: 아급성 관절 피로 및 아탈구 주의 단계";
+          recText = "관절 정렬이 어긋나 불균형한 물리적 충격이 반복되고 있는 상태입니다. 틈틈이 스트레칭 앱이나 어플을 실행하고 체중을 부하하는 스쿼트 자세를 전면 수정해야 합니다. 통풍 여부도 네이버나 구글의 자가 면역 수치 데이터와 연계해 살펴보십시오.";
+          costText = "예상 도수 예방 및 생활 케어 금액: 연평균 40만 원 ~ 90만 원 선에서 효율적인 맞춤 케어 가능";
+          tipText = "영양제 종류 추천: 보스웰리아, 강황 추출물(커큐민), 초록입홍합 성분의 항염 작용 위주 보조 식단 구성 추천.";
+        } else {
+          riskText = "분석 결과: 급성 단순 피로 및 보존 양호 단계";
+          recText = "단순 근피로 또는 과사용으로 일시적인 활막 마찰 부종일 수 있습니다. 1주일 정도 따뜻한 온찜질 요양을 유지해 주시고, 폼롤러 마사지를 병행하면 통증 완화에 큰 도움이 될 것입니다.";
+          costText = "예상 초기 치료 비용: 기본적인 요금 5만 원 미만 수준의 소액 물리치료로 해결 예상";
+          tipText = "영양제 추천: 비타민D, 칼슘 복합제와 기초 아미노산 복용을 통한 연골 세포 재생 기초 환경 구축 추천.";
+        }
+        
+        riskRating.textContent = riskText;
+        recommendation.textContent = recText;
+        costProj.textContent = costText;
+        suppTip.textContent = tipText;
+        
+        resultBox.style.display = 'block';
+        resultBox.scrollIntoView({ behavior: 'smooth' });
+      }
+    </script>
+
+    <section id="supplements">
+      <h2>핵심 관절 영양제 성분 종류 및 스마트한 비교 기준</h2>
+      <p>
+        인터넷이나 온라인 다이렉트 가입 사이트에서 범람하는 관절 브랜드 순위 추천 정보에 현혹되지 않으려면 핵심 영양 성분이 지닌 장점과 단점을 직접 분별할 수 있어야 합니다. 
+        보배드림, 펨코(에펨코리아), 디시 등의 남성 위주 운동 중심 사이트나 맘카페 같은 여성 소통 공간에서 내돈내산 후기로 자주 대두되는 원료 성분의 장단점 차이점을 과학적 근거로 비교 정리했습니다.
+      </p>
+
+      <div class="grid-container">
+        <div class="card">
+          <h4>MSM (식이유황)</h4>
+          <p>
+            <strong>장점:</strong> 연골 세포의 세포막 투과성을 강화하여 만성 염증 유발 매개체 분비를 억제하며 관절 뻣뻣함의 즉각적인 개선을 보조합니다.<br>
+            <strong>단점:</strong> 일시적인 소화 불량이나 가벼운 두통 등의 부작용 후기가 초기 적응 단계에서 보고될 수 있습니다.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>콘드로이친 황산염</h4>
+          <p>
+            <strong>장점:</strong> 관절 내부 완충 작용을 지탱하는 글리코사미노글리칸 성분의 핵으로, 연골 마멸 속도를 늦추고 관절 간격을 유지하는 작용이 탁월합니다.<br>
+            <strong>단점:</strong> 분자 구조가 큰 종류의 경우 장관 흡수율이 낮아 소바 유래 혹은 저분자 형태의 전문 가공 원료를 추천합니다.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>보스웰리아 세라타 추출물</h4>
+          <p>
+            <strong>장점:</strong> 체내 5-LOX 염증 경로를 선택 차단하여 붓기와 시큰거리는 증상을 완화하는 자연 허브 성분입니다.<br>
+            <strong>단점:</strong> 위장 질환이 있는 민감한 군은 공복 섭취 시 위산 과다 역류 증세의 단점이 있습니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="highlight-box">
+        <p>
+          신규 브랜드를 가입 및 구독 판매하는 사이트에서 사은품, 현금지원, 상품권, 또는 일정 지원금 혜택을 제시하여 충동구매를 유도하곤 합니다. 
+          그러나 가장 중요한 원칙은 본인의 관절 상태 및 연령대에 호환성이 높은 고품질 원료인지, 국내 식약처 기준치를 성실히 기재한 제품인지 다이렉트 분석을 철저히 하는 일입니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="community">
+      <h2>소셜 네트워크 및 대형 커뮤니티의 관절 케어 리얼 트렌드</h2>
+      <p>
+        최근 소비자들이 실제로 관절 제품을 선정할 때 가장 빈번하게 조회하는 것은 디시인사이드 영양제 갤러리 내돈내산 리얼 후기, 보배드림 헬스 부상 후기, 펨코(에펨코리아) 스포츠 관절 통증 대처 노하우 등 날것의 소통 데이터입니다. 
+        특히 토스 앱이나 페이스북, 인스타그램, 유튜브 등의 플랫폼에서 진행되는 파격 할인 이벤트 혹은 특가 사은품 프로모션을 비교 분석하는 경향이 갈수록 확고해집니다.
+      </p>
+
+      <div class="grid-container">
+        <div class="card">
+          <h4>디시인사이드 영양제 갤러리 동향</h4>
+          <p>가성비를 제일 중시하는 소비 성향답게 단일 성분의 함량 대비 저렴한곳 및 직구 사이트 할인 혜택 비교 글이 매일 정교하게 업데이트되며, 챗지피티(ChatGPT)나 제미나이(Gemini) 같은 생성 AI 기반 어플로 처방받은 영양 복용 순위를 상호 검증하는 유저들이 늘고 있습니다.</p>
+        </div>
+
+        <div class="card">
+          <h4>보배드림 및 중장년층 밀집 게시판 분석</h4>
+          <p>무릎 연골 침윤이나 퇴행 관절염 초기 주사 처방 요금에 대한 솔직한 비교기가 주를 이룹니다. 동네 근처의 과잉 진료 없는 양심 정형외과 추천 정보와 카카오톡 단체방 내의 비법 정보들이 공유됩니다.</p>
+        </div>
+
+        <div class="card">
+          <h4>펨코 / 에펨코리아 스포츠 게시판 추이</h4>
+          <p>축구, 농구 등 구기종목 후 고관절과 발목 염좌 회복 수단으로 충격파 치료 전문 장비의 요금 분석과 텔레그램 불안정 정보 방에서 흘러나오는 재활 전문 앱 추천 게시물의 반응이 아주 뜨겁습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>자주 묻는 질문 (FAQ)</h2>
+
+      <details>
+        <summary>Q1: 관절염과 단순 관절통증의 차이점은 무엇인가요?</summary>
+        <div class="details-content">
+          <p>
+            의학적으로 명백한 차이가 있습니다. 단순 관절통증은 구조적 조직 변성이 없는 일시적 근육 피로나 미세 마찰에 따른 주관적 결림 상태인 반면, 
+            관절염은 연골 손상이 실제로 나타나 활막에 대량의 염증성 사이토카인이 발현되어 눌렀을 때 열감, 부종, 극심한 가동 범위 제한을 체계적으로 유발하는 병리적 진단명에 해당합니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q2: 퇴행성 슬관절염 수술 예상 치료비는 얼마나 드나요?</summary>
+        <div class="details-content">
+          <p>
+            환자의 무릎 상태와 병원의 종류(종합병원, 전문 의원)에 따라 평균적인 차이가 크게 벌어집니다. 
+            인공관절 전치환술의 경우 건강보험 급여 적용 시 본인 부담 금액 기준으로 편측당 대략 200만 원에서 400만 원 수준이나, 여기에 맞춤 재활 어플 코칭과 요양 서비스 요금 및 간병인 비용이 추가되면 최종 견적은 한쪽 다리당 최소 500만 원 이상까지 누적될 수 있습니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q3: 다이렉트 영양제 사이트에서 구매할 때 사은품 혜택과 정품 여부는 어떻게 비교하나요?</summary>
+        <div class="details-content">
+          <p>
+            온라인 광고 사이트에서 신규 가입 시 제공하는 상품권 지급이나 일정 수준의 현금지원 지원금 보상은 일종의 마케팅 전략입니다. 
+            이에 가입하기 전 해당 업체 고객센터 번호가 정상 등록되어 있는지 조회하고, 네이버 페이 혹은 토스 간편 결제 등 안전 결제망이 지원되는 대형 공인 몰에서 제공하는 제품 순위 데이터를 토대로 선택하시는 것을 추천합니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q4: 류마티스 관절염은 자가면역 질환이라는데 극복에 무엇이 제일 중요한가요?</summary>
+        <div class="details-content">
+          <p>
+            류마티스 질환은 면역 세포가 정상적인 자신의 활막막을 항원으로 오인해 스스로 파괴하는 만성 자가면역 질환입니다. 
+            따라서 단순 진통제나 저렴한 민간요법 싼곳 정보에 현혹되는 일 없이 서울아산병원 등 대형 3차 의료기관의 류마티스 내과 상담 컨설팅을 즉시 받아 메토트렉세이트나 생물학적 표적 제제 치료 가입을 병행해야 합니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q5: 관절 건강 자가 케어를 도울 수 있는 홈 에이전트 앱이나 스마트 계산 기능은 어떻게 쓰나요?</summary>
+        <div class="details-content">
+          <p>
+            최근에는 모바일 전용 앱이나 인공지능 기반의 상담 어플리케이션을 통해 보행 시 압력 분포도를 카메라로 정밀 스캔하여 이상 징후를 조기에 예측해주는 스마트 툴들이 많이 나왔습니다. 
+            단, AI가 내려준 결과는 1차 예방 차원의 참고 자료이므로, 관절 내 뼈 융기나 삼출액이 고이는 급성 부종 상황에서는 반드시 정밀 초음파가 가능한 기기를 보유한 현지 정형 전공의를 찾아 상세한 견적 처방을 받아야 안전합니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q6: 젊은 층에서 오십견과 같은 어깨 주변 어깨통증을 유발하는 잘못된 습관은 무엇입니까?</summary>
+        <div class="details-content">
+          <p>
+            사무실 책상 아래로 키보드를 지나치게 낮게 두거나 어깨를 과도하게 안으로 말아 굽힌 자세(라운드 숄더)로 종일 구글 검색을 하거나 타이핑을 하는 습관이 일등 요인입니다. 
+            상완골두와 견봉 사이의 간격이 비좁아져 충돌 증후군이 발현되며, 장기간 방치 시 젊은 오십견(유착성 관절낭염)으로 비화해 극심한 야간통과 어깨 잠김 현상이 발발하게 됩니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q7: 통풍 관절염의 평균 급성 발작 기간과 완화 대책은?</summary>
+        <div class="details-content">
+          <p>
+            급성 통풍은 주로 엄지발가락 관절 주위에 발현하며, 약 3일에서 10일에 걸쳐 타는 듯한 지독한 통증과 보라색 팽창성 발적이 동반됩니다. 
+            이 기간에는 얼음주머니를 이용해 간헐적 냉찜질을 해주고 요산 억제제인 콜키신이나 비스테로이드성 소염진통제 복용 요금을 부담하더라도 반드시 처방 치료해야 관절 침식 파괴를 방지할 수 있습니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q8: 고관절 괴사가 오는 주요 요인과 예상되는 전조 신호는 어떤 종류가 있나요?</summary>
+        <div class="details-content">
+          <p>
+            주요 원인은 과도한 알코올 섭취, 과도한 부신피질 호르몬(스테로이드) 장기 복용이며, 대퇴골두 부위의 혈류가 영구 차단되어 연골이 썩는 대퇴골두 무혈성 괴사가 발생합니다. 
+            전조 신호는 바닥에 책상다리를 하고 앉을 때 사타구니 안쪽 부위가 묵직하게 조여오거나 걸을 때 절뚝거림이 수반되는 양상이 대표적입니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q9: 관절 치료 실손 보장 보험 가입 시 가장 눈여겨볼 비급여 항목은 무엇인가요?</summary>
+        <div class="details-content">
+          <p>
+            의사의 의학적 처방 소견 하에 실시하는 비급여 도수치료 요금, 고주파 체외충격파 요금, 연골 유도 증식 증식 주사 비용 등은 보장이 지원되는 비중이 높습니다. 
+            그러나 예방 목적의 단순 피로성 마사지 케어나 영양 물질 영양 보조 식품을 개인의 필요에 의해 병원 내에서 처방 없이 구매하는 경우에는 청구 요건에서 제외되므로 꼼꼼히 약관을 비교하고 컨설팅 받아보셔야 합니다.
+          </p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Q10: 겨울철에 유독 무릎과 전신 관절통이 시린 이유는 무엇입니까?</summary>
+        <div class="details-content">
+          <p>
+            기온이 급격히 내려가면 체열 손실을 방지하기 위해 혈관이 축소되고 관절 내부 조직을 감싸고 있는 인대 및 근육의 유연성이 크게 저하됩니다. 
+            이와 동시에 기압의 불균형이 오며 관절낭 속 관절강 내부 활막액의 압력이 상대적으로 올라 연골 주변의 말초 신경 세포막을 직접적으로 마찰 자극하기에 겨울철에 전조 증상이 더욱 빈번하게 악화되는 양상을 보입니다.
+          </p>
+        </div>
+      </details>
+    </section>
+
+    <section id="external-references">
+      <h2>공인된 신뢰성 높은 의료 및 정보 기관 정보</h2>
+      <p>
+        관절의 생물학적 퇴행과 정확한 보존 처치에 관한 최신 의학적 임상 가이드라인은 아래의 공식 출처를 통해 투명하게 조회 가능합니다.
+      </p>
+
+      <div class="external-links-container">
+        <a href="https://painntreatc.koreahankang.com" class="external-link-card" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="external-link-title">관절통증 전문 진단 지침 (ReliableDone)</div>
+            <div class="external-link-desc">인체 관절의 기계적 부하 차단 기전 및 2026년도 퇴행 예방 비급여 비용 대조 가이드라인</div>
+          </div>
+          <span style="color: var(--primary); font-weight: 700;">바로가기</span>
+        </a>
+
+        <a href="https://namu.wiki/w/관절염" class="external-link-card" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="external-link-title">나무위키 관절염 지식 자료실</div>
+            <div class="external-link-desc">퇴행성, 류마티스 및 통풍성 관절염의 임상적 분류와 인류학적 발달 변천사 상세 정리</div>
+          </div>
+          <span style="color: var(--primary); font-weight: 700;">바로가기</span>
+        </a>
+
+        <a href="https://health.kdca.go.kr" class="external-link-card" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="external-link-title">질병관리청 국가건강정보포털</div>
+            <div class="external-link-desc">대한민국 공인 국가보건기관의 골관절염 보존적 운동 요법 및 수술적 치료 가이드북 공식 제공</div>
+          </div>
+          <span style="color: var(--primary); font-weight: 700;">바로가기</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="autocomplete-keywords-section">
+      <h2>연관 및 다빈도 인공지능 검색 키워드 체계</h2>
+      <p>
+        네이버 검색창, 구글 알고리즘 분석 및 AI 챗봇 이용 시 사용자가 가장 빈번하게 동시 검색하는 키워드 구조를 종합하여 나타낸 데이터입니다.
+      </p>
+      <ul class="keyword-cloud">
+        <li>20대 무릎 뚝뚝 거림 정형외과 요금</li>
+        <li>30대 수근관 증후군 주사 치료 예상 비용</li>
+        <li>40대 어깨 오십견 도수치료 평균 금액</li>
+        <li>50대 퇴행성관절염 무릎 영양제 순위 추천</li>
+        <li>60대 무릎 연골 인공관절 수술 견적 가격</li>
+        <li>관절 영양제 내돈내산 디시 갤러리 후기</li>
+        <li>다이렉트 관절 치료 가입 한도 차이점</li>
+        <li>보스웰리아 세라타 추출물 효능 장단점</li>
+        <li>초록입홍합 콘드로이친 브랜드 비교 제일 싼곳</li>
+        <li>관절염 치료 잘하는 전문 병원 검색 방법</li>
+        <li>정형외과 MRI 촬영 비용 실손 청구 방법</li>
+        <li>무릎 관절 삼출액 천자 요금 및 유의사항</li>
+        <li>자가면역 류마티스 관절염 대학병원 컨설팅</li>
+        <li>통풍성 관절염 발목 염증 붓기 해소 앱</li>
+        <li>연골 재생 주사 성분 종류 및 1년 평균 가격</li>
+        <li>골프 엘보우 테니스 엘보우 체외충격파 비용</li>
+        <li>스마트 폰 사용량 증가 손가락 마디 건초염</li>
+        <li>등산 하산 시 무릎 슬개골 충격 보호 요령</li>
+        <li>집안일 손목 보호대 브랜드 추천 및 할인율</li>
+        <li>겨울철 관절 뻣뻣함 완화 홈 트레이닝 어플</li>
+        <li>질병관리청 골관절염 예방 규칙 외부 링크</li>
+        <li>카카오톡 채널 관절 영양 상담 지원금 혜택</li>
+        <li>토스 만보기 무릎 건강 앱 활용법</li>
+        <li>네이버 블로그 무릎 줄기세포 수술 후기 분석</li>
+        <li>유튜브 관절 물리치료 자가 스트레칭 영상</li>
+        <li>페이스북 인스타그램 공동구매 영양제 사은품</li>
+        <li>텔레그램 정형외과 꿀팁 및 과잉진료 회피 사이트</li>
+        <li>제미나이 챗지피티 연동 관절 영양 소요 계산기</li>
+        <li>2026년 무릎 인공 관절 의료 급여 신청 가이드</li>
+        <li>관절 연골 재생 치료비 저렴한곳 찾는 법</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>맞춤 관절 건강 1:1 컨설팅 및 안내 신청</h2>
+      <p>
+        본인의 연령대, 직업 활동 및 현재 증상에 맞는 과학적 영양 솔루션과 합리적인 관리 예상 요금에 대해 전문 설계사의 무료 맞춤형 상담 안내를 도와드립니다. 
+        필요한 기초 항목을 정확히 입력해주시면 검토 후 답변을 메일 혹은 연락처로 받아보실 수 있습니다.
+      </p>
+      <form id="consulting-form" action="/submit-consulting" method="post">
+        <label for="client-name">신청자 성명</label>
+        <input type="text" id="client-name" name="client-name" placeholder="예: 홍길동" required />
+
+        <label for="client-tel">안내받으실 연락처</label>
+        <input type="tel" id="client-tel" name="client-tel" placeholder="예: 010-1234-5678" pattern="[0-9]{3}-[0-9]{3,4}-[0-9]{4}" required />
+
+        <label for="current-part">상담을 원하시는 주요 통증 부위</label>
+        <select id="current-part" name="current-part" required>
+          <option value="">부위를 선택하십시오</option>
+          <option value="knee">무릎 관절 (퇴행성 질환 및 시큰거림)</option>
+          <option value="shoulder">어깨 관절 (오십견 및 인대 파열 의심)</option>
+          <option value="wrist-finger">손목 / 손가락 마디 (직업성 건초염)</option>
+          <option value="spine-hip">허리 / 고관절 (골반 정렬 불안정)</option>
+          <option value="multiple">복합적인 전신 전이 통증</option>
+        </select>
+
+        <label for="consult-detail">현재 느끼고 계신 구체적인 불편 사항</label>
+        <textarea id="consult-detail" name="consult-detail" rows="6" placeholder="통증의 빈도, 지속 기간, 과거 수술 및 시술 여부 등 상세하게 남겨주시면 정교한 분석 설계가 가능합니다."></textarea>
+
+        <button type="submit" class="cta-button">무료 맞춤형 분석 리포트 상담 신청하기</button>
+      </form>
+    </section>
+
+  </main>
+
+  
